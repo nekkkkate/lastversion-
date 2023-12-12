@@ -1,7 +1,7 @@
 import unittest
 from triangle import area
 from triangle import perimeter
-class RectangleTestCase(unittest.TestCase):
+class TriangleTestCase(unittest.TestCase):
     def test_zero_mul(self):
         res = area(8, 0)
         self.assertEqual(res, 0)
