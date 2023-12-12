@@ -3,7 +3,7 @@ import math
 from circle import area
 from circle import perimeter
 
-class SquareTestCase(unittest.TestCase):
+class CircleTestCase(unittest.TestCase):
    def test_zero_mul(self):
        res = area(0)
        self.assertEqual(res, 0)
